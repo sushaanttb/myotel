@@ -1,5 +1,8 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+A sample library to instrument OpenAI calls. The library is exposed via it's main class MyCustomInstrumentor.py which sets up everything.
+The main class internally refers to another class "TestOpenAIInstrumentor.py" which is basically a custom Instrumentor class based on OpenTelemetry API. This class actually does the instrumerntation of OpenAI calls. 
+Further the instrumentation library also exposes a log filter and custom tracer annoation which can be used by developers as required.
+An example app.py class has been created as a reference to show how a developer can leverage all that.
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:

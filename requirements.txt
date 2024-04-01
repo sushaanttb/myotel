@@ -1,0 +1,9 @@
+wrapt
+python-dotenv
+opentelemetry-api
+opentelemetry-instrumentation
+azure-monitor-opentelemetry
+opentelemetry-semantic-conventions-ai
+opentelemetry-instrumentation-logging
+scrubadub
+openai
